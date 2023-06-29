@@ -1,0 +1,25 @@
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee-form label {
+    margin-bottom: 0.5rem;
+}
+
+.employee-form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+.employee-form button {
+    padding: 0.5rem 1rem;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
