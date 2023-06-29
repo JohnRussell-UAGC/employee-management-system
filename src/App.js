@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route
 import EmployeeForm from './Components/EmployeeForm';
+import EmployeeDetail from './Components/EmployeeDetail';
+import EmployeeList from './Components/EmployeeList';
 
 function App() {
   // define the property for the employee, the function, and the default state.
@@ -17,11 +20,21 @@ function App() {
   };
 
   return (
-    // add the div because JSX requires a singular parent, and we are adding a button
+    // create the browser component and define the paths
+    <BrowserRouter>
     <div>
-      <EmployeeForm onSubmit={addEmployee} /> 
-      <button onClick={saveData}>Save Data</button>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <EmployeeForm onSubmit={addEmployee} />
+            <EmployeeList employees={employees} />
+            <button onClick={saveData}>Save Data</button>
+          </>
+        } />
+        <Route path="/employees/:id" element={<EmployeeDetail employees={employees} />} />
+      </Routes>
     </div>
+  </BrowserRouter>
   );
 }
 

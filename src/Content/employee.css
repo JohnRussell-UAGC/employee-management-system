@@ -2,24 +2,87 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.employee-form label {
+  }
+  
+  .employee-form label {
     margin-bottom: 0.5rem;
-}
-
-.employee-form input {
+  }
+  
+  .employee-form input {
     padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 0.25rem;
     border: 1px solid #ccc;
-}
-
-.employee-form button {
+  }
+  
+  .employee-form button {
     padding: 0.5rem 1rem;
     background-color: #0077cc;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-}
+  }
+  
+  .employee-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333;
+    align-items: center;
+  }
+  
+  .employee-list h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .employee-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employee-list li {
+    margin-bottom: 8px;
+  }
+  
+  .employee-list li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .employee-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .employee-detail label {
+    font-weight: bold;
+  }
+
+  .employee-detail table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .employee-detail td, .employee-detail th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .employee-detail tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .employee-detail tr:hover {background-color: #ddd;}
+  
+  .employee-detail th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0077cc;
+    color: white;
+  }
+  
