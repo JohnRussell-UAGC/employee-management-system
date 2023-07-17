@@ -21,7 +21,7 @@ To get started with this project, follow the steps below:
 5. **Week-by-Week Progression:** This repository is organized into different branches, each representing a specific week of the project. Start with the initial branch (`week-1`) and progress through each subsequent week, following the instructions and guidelines provided in each branch's README file.
 
 ## Repository Structure
-You can navigate the repository by using the dropdown towards the top right of this page that currently says "Master"
+You can navigate the repository by using the dropdown towards the top left of this page that currently says "Master"
 
 The repository has the following structure:
 
