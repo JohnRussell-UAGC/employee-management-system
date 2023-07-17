@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Employee Management System: Assignment 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This assignment is the first step towards building your very own Employee Management System. The task for this week is to set up a new React application from scratch. The skills you will practice include creating a new React app, building your own components, setting up your development environment, and getting started with Git source control.
 
-In the project directory, you can run:
+## Assignment Goals
 
-### `npm start`
+1. Setting up the React development environment.
+2. Creating a new React application.
+3. Building a basic layout with React components.
+4. Using Git for source control and managing project versions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setting up your Development Environment
 
-### `npm test`
+1. Make sure Node.js is installed on your machine. If not, download it from [here](https://nodejs.org/en/download/). React requires Node.js version 10.16.0 or later.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the Create-React-App command-line utility globally on your machine. Use the following command:
 
-### `npm run build`
+```bash
+npm install -g create-react-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Creating a new React Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create a new React app by typing the following command in your terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx create-react-app employee-management-system
+```
 
-### `npm run eject`
+After running the command, a new folder named `employee-management-system` will be created with all the necessary files and folders to start your new React application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Git Branching and Committing Changes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Before starting to code, it's a good practice to create a new Git branch for your assignment. This allows you to separate your changes for each assignment and makes code reviews and grading easier.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To create a new branch, navigate to your project directory in your terminal and use the following commands:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git checkout -b assignment-1
+```
 
-## Learn More
+This command creates a new branch named `assignment-1` and switches to it.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+As you change your project, remember to commit your work frequently. This helps to track your progress and revert changes if something goes wrong.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To add and commit changes, use the following commands:
 
-### Code Splitting
+```bash
+git add .
+git commit -m "Your commit message"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Building a Basic Layout
 
-### Analyzing the Bundle Size
+Build a basic layout for your application. At this stage, you are not required to implement any functionality. Your goal is to create a layout with dummy data. The layout can be as simple as a header, main section, and a footer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Here's a basic example:
 
-### Making a Progressive Web App
+1. Header - a simple header with the name of your application.
+2. Main Section - a table or a list to display employee details (use dummy data for now).
+3. Footer - a simple footer with some text.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to explore and get creative with your components!
 
-### Advanced Configuration
+## Submission
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+When you have completed the assignment, push your code to your branch on the repository.
 
-### Deployment
+```bash
+git push origin assignment-1
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Once you have pushed your changes, create a pull request for your branch.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck and happy coding!
