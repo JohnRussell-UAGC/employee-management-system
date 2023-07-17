@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Employee Management System: Assignment 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to Assignment 2! In this assignment, you will build upon the foundation you've created in Assignment 1, and will continue developing your Employee Management System. The focus of this week's task is adding interactivity to your React app. You will learn how to handle user input, manage state in a component, and respond to user actions.
 
-In the project directory, you can run:
+## Assignment Goals
 
-### `npm start`
+1. Learn how to handle user input in React.
+2. Understand and manage the state of a component.
+3. Respond to user actions (like button clicks).
+4. Compare and contrast your progress on GitHub.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setting Up Your New Branch
 
-### `npm test`
+Before you start working on this assignment, create a new Git branch based off `master` or `assignment-1`. This helps to keep your code organized as you progress through the assignments. Use the following commands to create and switch to a new branch:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git checkout master
+git pull origin master
+git checkout -b assignment-2
+```
 
-### `npm run build`
+### Handling User Input
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a form that allows users to add new employees to your application. At this stage, you can use dummy data to simulate the creation of new employees.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Managing State
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The form you create should have its own state that manages the input values. When the form is submitted, it should clear the inputs.
 
-### `npm run eject`
+### Responding to User Actions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+When a user submits the form, show a notification or an alert that a new employee has been added. This will not yet add an actual employee, but should demonstrate that the form is working as expected.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Comparing Branches on GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Before you start your assignment, take some time to compare the changes between this assignment and Assignment-1 using the provided link. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Compare Assignment 1 and Assignment 2](https://github.com/JohnRussell-UAGC/employee-management-system/commit/b48da73b4b0e06de56986465af44e2fb9d1e2f08?diff=split)
 
-## Learn More
+This comparison will give you an understanding of the new code added in Assignment 2 as compared to Assignment 1. It can help you grasp the progression of the project and learn from the changes made.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Submission
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+When you have completed the assignment, push your code to your branch on the repository.
 
-### Code Splitting
+```bash
+git push origin assignment-2
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Once you have pushed your changes, create a pull request for your branch.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy the process and happy coding!
