@@ -14,11 +14,12 @@ To get started with this project, follow the steps below:
    git clone https://github.com/JohnRussell-UAGC/employee-management-system.git
    ```
 
-3. **Install Dependencies:** After cloning, navigate into the directory of the project and run `npm install` to install the necessary dependencies. This is an essential step, as the project requires specific packages to run correctly.
+3. **Install Dependencies:** After cloning, navigate into the directory of the project and run `npm install` to install the necessary dependencies. This is an essential step, as the project requires specific packages to run correctly. You may need to install the react scripts.
+   ```npm install react-scripts --save-dev```
 
-4. **Set up the development environment:** Ensure that you have the necessary development tools and dependencies installed on your machine. You may need a specific version of a programming language or framework, so make sure to check the project's requirements and install the necessary software accordingly.
+5. **Set up the development environment:** Ensure that you have the necessary development tools and dependencies installed on your machine. You may need a specific version of a programming language or framework, so make sure to check the project's requirements and install the necessary software accordingly.
 
-5. **Week-by-Week Progression:** This repository is organized into different branches, each representing a specific week of the project. Start with the initial branch (`week-1`) and progress through each subsequent week, following the instructions and guidelines provided in each branch's README file.
+6. **Week-by-Week Progression:** This repository is organized into different branches, each representing a specific week of the project. Start with the initial branch (`week-1`) and progress through each subsequent week, following the instructions and guidelines provided in each branch's README file.
 
 ## Repository Structure
 You can navigate the repository by using the dropdown towards the top left of this page that currently says "Master"
